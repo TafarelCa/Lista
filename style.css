@@ -1,0 +1,50 @@
+h1{
+    text-align:center;
+}
+
+.form{
+    display:flex;
+    justify-content:center;
+    gap:5px;
+}
+
+input[type="text"]{
+    width:40%;
+    padding:8px;
+}
+
+.atividade{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    background-color: rgb(69,255,84);
+    border-radius:10px;
+    box-shadow: 0 0 5px rgb(117,115,115);
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top:2%;
+}
+
+p{
+  width:50%;
+}
+
+@media screen and (max-width:425px) {
+  h1{
+    font-size:40px;
+  } 
+  
+  input[type="text"]{
+    width:80%;
+  }
+
+  .form{
+    flex-wrap: wrap;
+  }
+
+  .atividade{
+    margin-left:8%;
+    margin-right:8%;
+  }
+}
